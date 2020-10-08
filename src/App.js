@@ -1,26 +1,52 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Card from './Card';
+import Banner from './Banner';
+import Footer from './Footer';
+import food from './img/food.jpg';
+import massage from './img/massage.jpg';
+import meditation from './img/meditation.jpg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const food_description =
+    'Enjoy a wide selection of delicious food, freshly served by our board certified chefs every day. Room service runs 24 hours a day for whenever you feel peckish! Full English breakfast is offered to all guests at the hotel.';
+const massage_description =
+    'Our Spa services offer you the chance to re-energize for the challenges ahead. From Massage Therapies to Skincare, Body Treatments to Pedicures, we offer treatments that help both body and mind.';
+const meditation_description =
+    'Sitting on 600 acres of mountains, forests, meadows, and valleys, Shambhala Mountain Center in Red Feather Lakes, Colorado, is a nature lovers delight. The center offers an array of mindfulness and retreat offerings.';
+
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
+
+    render() {
+        return (
+            <div>
+                <Navbar />
+                <Banner />
+                <div className="card-container">
+                    <Card
+                        img={food}
+                        title="Gourmet Food"
+                        desc={food_description}
+                    />
+                    <Card
+                        img={massage}
+                        title="Relaxing Spa"
+                        desc={massage_description}
+                    />
+                    <Card
+                        img={meditation}
+                        title="Meditation Retreat"
+                        desc={meditation_description}
+                    />
+                </div>
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;
