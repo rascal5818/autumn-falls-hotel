@@ -1,38 +1,63 @@
+/* Navbar styling */
+.navbar {
+    height: 75px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.tree-icon {
+    height: 65px;
+    width: 65px;
+    display: inline-block;
+    padding: 6px 0 0 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    padding: 25px 50px 0 0;
+    text-align: right;
+    display: inline-block;
+}
+
+/* Card styling */
+.card-container {
+    text-align: center;
+}
+
 .card {
     height: 450px;
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    margin: 30px;
-    display: inline-block;   
+    margin: 50px 40px 0 0;
+    display: inline-block;
 }
 
 .card-image {
     width: 350px;
 }
 
+.title {
+    font-size: large;
+    font-weight: 400;
+    margin: 15px 0 15px 0;
+}
+
 .description {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0 25px 0 25px;
     font-weight: 100;
 }
 
-.card-container {
-    text-align: center;
-}
-
+/* Banner styling */
 .banner {
     width: 100%;
-    margin-bottom: 25px;
     position: relative;
-}
-
-.footer {
-    margin-top: 50px;
-    margin-bottom: 25px;
-    text-align: center;
-    font-weight: 300;
-    font-size: medium;
 }
 
 .centered {
@@ -40,27 +65,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: xxx-large;
-    font-weight: 300;
+    font-size: 3em;
+    font-weight: 400;
     color: white;
 }
 
-.navbar {
-    height: 75px;
-    display: inline-flex;
-    font-size: large;
-    font-weight: 400;
-    text-align: right;
-}
-
-.title {
-    font-size: large;
-    font-weight: 400;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.button {
-    margin: 0;
-    text-align: left;
+/* Footer styling */
+.footer {
+    margin: 50px 0 25px 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: medium;
 }

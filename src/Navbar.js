@@ -1,13 +1,17 @@
 import React from 'react';
+import treeIcon from './img/tree.png';
 
 function Navbar() {
     return (
         <div className="navbar">
-            <div className="button">Book Now</div>
-            <div className="button">About Us</div>
-            <div className="button">Contact</div>
+            <img className="tree-icon" src={treeIcon} />
+            <ul>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>Book Now</li>
+            </ul>
         </div>
-    )
+    );
 }
 
 export default Navbar;
