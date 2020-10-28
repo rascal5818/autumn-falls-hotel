@@ -6,9 +6,9 @@ function Navbar() {
         <div className="navbar">
             <img className="tree-icon" src={treeIcon} />
             <ul>
-                <li>About Us</li>
-                <li>Contact</li>
                 <li>Book Now</li>
+                <li>Contact</li>
+                <li>About Us</li>
             </ul>
         </div>
     );
