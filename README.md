@@ -1,13 +1,13 @@
-## Autumn Falls Hotel & Spa
+# Autumn Falls Hotel & Spa
 
 A mock website for a lovely hotel and spa resort!
 
 I built this with HTML, CSS (using Grid layout) & React
 
-# Standard
+## Standard
 
 ![](screenshot/screenshot-autumn-falls.jpg)
 
-# Mobile
+## Mobile
 
 ![](screenshot/screenshot-autumn-falls-1280.jpg)
