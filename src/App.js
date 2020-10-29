@@ -31,16 +31,19 @@ class App extends React.Component {
                         img={food}
                         title="Gourmet Food"
                         desc={food_description}
+                        id="one"
                     />
                     <Card
                         img={massage}
                         title="Relaxing Spa"
                         desc={massage_description}
+                        id="two"
                     />
                     <Card
                         img={meditation}
                         title="Meditation Retreat"
                         desc={meditation_description}
+                        id="three"
                     />
                 </div>
                 <Footer />
