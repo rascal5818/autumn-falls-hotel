@@ -3,7 +3,7 @@ import './App.css';
 
 function Footer() {
     return (
-        <div className="footer">Copyright © 2020 Autumn Falls Hotel & Spa</div>
+        <div className="footer">Copyright © 2022 Autumn Falls Hotel & Spa</div>
     )
 }
 
