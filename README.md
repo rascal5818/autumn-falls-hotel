@@ -1,8 +1,8 @@
 # Autumn Falls Hotel & Spa
 
-A mock website for a lovely hotel and spa resort!
+A single page site for a hotel and spa resort.
 
-I built this with HTML, CSS (using Grid layout) & React
+I built this with HTML, CSS (using Grid layout) & React.
 
 ## Standard
 
